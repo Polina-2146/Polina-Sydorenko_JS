@@ -4,8 +4,10 @@ for (const friend of friends){
         console.log('знайдено найкращого друга');
         break;
     }else{
-        console.log('найкращого друга немає');
+        console.log('найкращого друга не знайдено');
         
 
     }
 }
+
+
