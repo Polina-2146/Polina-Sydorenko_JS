@@ -1,15 +1,15 @@
 const findLongestWord = function (string) {
-    let str = string.split(" ");
-    let longest = '';
+  let str = string.split(" ");
+  let longest = '';
+  let word = null;
 
-
-    for (const word of str) {
-    if (longest.length < word.length){
-        longest = word;
-    }
-    }
-    return longest;
-  };
+  for (word of str) {
+  if (longest.length < word.length){
+      longest = word;
+  }
+  }
+  return longest;
+};
 
 console.log(findLongestWord('The quick brown fox jumped over the lazy dog')); // 'jumped'
 
